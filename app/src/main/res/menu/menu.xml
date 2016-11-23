@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <item
+        android:id="@+id/letras_frutas"
+
+        android:title="Letras/Frutas"
+        />
+
+
+    <item
+        android:id="@+id/menu_inicial"
+
+        android:title="Menu inicial"
+        />
+
+    <item
+        android:id="@+id/letras_animais"
+
+        android:title="Letras/Animais"
+        />
+
+    <item
+        android:id="@+id/matematica_animais"
+
+        android:title="Matemática/Animais"
+        />
+
+    <item
+        android:id="@+id/matematica_frutas"
+
+        android:title="Matemática/Frutas"
+        />
+
+
+    <item
+        android:id="@+id/sobre"
+
+        android:title="Sobre"
+        />
+
+
+
+</menu>

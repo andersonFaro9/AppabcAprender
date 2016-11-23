@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- estilo na barra de menu activity -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/holo_blue_dark</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style><!-- estilo na barra de menu activity -->
+
+
+
+    <!--Estilo barra Uva Activity-->
+    <style name="theme_uva" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <!--Estilo barra Uva Pera Activity-->
+    <style name="theme_pera" parent="AppTheme" >
+        <item name="colorPrimary">?android:attr/colorPressedHighlight</item>
+        <item name="colorPrimaryDark">?android:attr/colorPressedHighlight</item>
+    </style>
+
+    <style name="Theme.AppTheme" parent="android:Theme" />
+
+    <style name="theme_maca" parent="AppTheme" >
+    <item name="colorPrimary">@android:color/holo_red_dark</item>
+    <item name="colorPrimaryDark">@android:color/holo_red_dark</item>
+</style>
+
+    <style name="theme_urso" parent="AppTheme" >
+        <item name="colorPrimary">@color/legacy_primary</item>
+        <item name="colorPrimaryDark">@color/legacy_primary</item>
+    </style>
+
+    <style name="theme_zebras" parent="theme_maca" >
+        <item name="colorPrimary">@color/accent_material_light_1</item>
+        <item name="colorPrimaryDark">@android:color/holo_purple</item>
+    </style>
+
+
+
+
+
+
+</resources>
