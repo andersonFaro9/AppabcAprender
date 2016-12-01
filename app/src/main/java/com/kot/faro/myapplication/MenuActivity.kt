@@ -7,7 +7,6 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -25,24 +24,7 @@ open class MenuActivity : AppCompatActivity(),  Players {
     }
 
 
-      fun toMute() {
 
-          volume_play_menu.setOnClickListener {
-
-              if (volume_play_menu.isSelected) {
-
-
-                  playSoundInButton()
-                  Toast.makeText(this, "Teste", Toast.LENGTH_SHORT).show()
-
-              } else {
-//            val intent = Intent(this, GrapeActivity::class.java)
-//            startActivity(intent)
-                  //playSoundError()
-                  stopSoundInbutton()
-              }
-          }
-    }
 
 
 
@@ -67,7 +49,7 @@ open class MenuActivity : AppCompatActivity(),  Players {
             val prefs = getSharedPreferences("preferencias", Context.MODE_PRIVATE)
             val ed = prefs.edit()
 
-            ed.putBoolean("chave", v.isSelected)
+            ed.putBoolean("key", v.isSelected)
 
             ed.commit()
         })

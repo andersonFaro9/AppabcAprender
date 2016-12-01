@@ -1,6 +1,7 @@
 package com.kot.faro.myapplication
 
 import InterfacesPortugues.Players
+
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
@@ -70,7 +71,7 @@ open class GrapeActivity : MenuActivity(),  Players {
             v.setBackgroundResource(R.drawable.check)
 
             val prefs = getSharedPreferences("preferencias", Context.MODE_PRIVATE)
-            val keys = prefs.getBoolean("chave", true)
+            val keys = prefs.getBoolean("key", true)
 
             if(keys){
                 playSoundInButton()
@@ -99,7 +100,7 @@ open class GrapeActivity : MenuActivity(),  Players {
 
         abc_aprender_e.setOnClickListener({
 
-            toMute()
+
 
 
         })
@@ -110,7 +111,7 @@ open class GrapeActivity : MenuActivity(),  Players {
 
         abc_aprender_i.setOnClickListener({
 
-            toMute()
+
 
         })
     }
