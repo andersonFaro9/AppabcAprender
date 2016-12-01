@@ -9,8 +9,10 @@ interface ButtonsForFruits {
     fun goFirstLetter( )
     fun goSecondLetter()
     fun goThirdLetter()
-    fun toMute()
+    //fun toMute()
     fun toAudioMuteButtonsLettersOk()
     fun toChangeButtonVolume()
+
+
 
 }

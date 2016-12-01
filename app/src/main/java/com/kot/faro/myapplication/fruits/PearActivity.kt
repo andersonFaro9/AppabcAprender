@@ -1,6 +1,5 @@
 package com.kot.faro.myapplication
 
-import InterfacesPortugues.ButtonsForFruits
 import InterfacesPortugues.Players
 import android.content.Intent
 import android.os.Bundle
@@ -13,7 +12,7 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_pera.*
 
 
-open class PearActivity : AppCompatActivity(), ButtonsForFruits, Players {
+open class PearActivity : AppCompatActivity(),  Players {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,7 +20,7 @@ open class PearActivity : AppCompatActivity(), ButtonsForFruits, Players {
         goFirstLetter()
         goSecondLetter()
         goThirdLetter()
-        toChangeButtonVolume()
+        //toChangeButtonVolume()
         stopSoundInbutton()
         getSupportActionBar()?.setDisplayHomeAsUpEnabled(true)
 
@@ -29,14 +28,14 @@ open class PearActivity : AppCompatActivity(), ButtonsForFruits, Players {
 
 
 
-    override fun goSecondLetter( ) {
+     fun goSecondLetter( ) {
 
         abc_aprender_e_pera.setOnClickListener({
 
             v ->
             v.setBackgroundResource(R.drawable.check)
 
-            toAudioMuteButtonsLettersOk()
+            //toAudioMuteButtonsLettersOk()
 
             Toast.makeText(this, "parabéns, você acertou! ", Toast.LENGTH_SHORT).show()
 
@@ -55,60 +54,28 @@ open class PearActivity : AppCompatActivity(), ButtonsForFruits, Players {
     }
 
 
-    override fun goFirstLetter( ) {
+     fun goFirstLetter( ) {
 
         abc_aprender_a_pera.setOnClickListener({
 
-            toMute()
+           // toMute()
 
 
         })
 
     }
 
-    override fun goThirdLetter() {
+     fun goThirdLetter() {
 
         abc_aprender_i_pera.setOnClickListener({
 
-            toMute()
+            //toMute()
 
         })
     }
 
 
-    override fun toMute() {
 
-        if (volume_stop_pera.isSelected)
-
-            stopSoundInbutton()
-
-        else
-            playSoundError()
-
-
-    }
-
-
-
-    override fun toChangeButtonVolume() {
-
-        volume_stop_pera?.setOnClickListener({
-
-            v -> v.isSelected = !v.isSelected
-
-            if (v.isSelected) v.setBackgroundResource(R.drawable.volume_mudo) else v.setBackgroundResource(R.drawable.volume_ligado)
-
-        })
-
-
-    }
-
-
-    override fun toAudioMuteButtonsLettersOk() {
-
-        if (volume_stop_pera.isSelected) stopSoundInbutton()  else playSoundInButton()
-
-    }
 
 
 

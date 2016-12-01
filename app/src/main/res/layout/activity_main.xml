@@ -53,7 +53,7 @@
             android:layout_height="73dp"
             android:background="@android:color/transparent"
             app:srcCompat="@drawable/sol"
-            tools:layout_editor_absoluteY="166dp"
+            tools:layout_editor_absoluteY="88dp"
             android:id="@+id/imageView"
             android:layout_marginStart="16dp"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -61,7 +61,19 @@
             android:layout_marginEnd="16dp"
             app:layout_constraintRight_toRightOf="parent"
             android:layout_marginRight="16dp"
-            app:layout_constraintHorizontal_bias="0.86" />
+            app:layout_constraintHorizontal_bias="0.84" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/botao_desligado"
+            android:background="@android:color/transparent"
+            android:id="@+id/volume_play_menu"
+            android:layout_marginEnd="336dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="336dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="464dp" />
 
 
     </android.support.constraint.ConstraintLayout>

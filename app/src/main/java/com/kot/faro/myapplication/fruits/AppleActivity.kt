@@ -1,6 +1,5 @@
 package com.kot.faro.myapplication
 
-import InterfacesPortugues.ButtonsForFruits
 import InterfacesPortugues.Players
 import android.content.Intent
 import android.os.Bundle
@@ -12,15 +11,15 @@ import android.widget.ImageButton
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_maca.*
 
-class AppleActivity : AppCompatActivity(), ButtonsForFruits, Players {
+class AppleActivity : AppCompatActivity(),  Players {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_maca)
         goSecondLetter()
-        goThirdLetter()
+        //goThirdLetter()
         goFirstLetter( )
-        toChangeButtonVolume()
+        //toChangeButtonVolume()
         stopSoundInbutton()
         getSupportActionBar()?.setDisplayHomeAsUpEnabled(true);
     }
@@ -28,14 +27,14 @@ class AppleActivity : AppCompatActivity(), ButtonsForFruits, Players {
 
 
 
-    override fun goSecondLetter() {
+     fun goSecondLetter() {
 
         abc_aprender_m.setOnClickListener({
 
             v ->
             v.setBackgroundResource(R.drawable.check)
 
-            toAudioMuteButtonsLettersOk()
+            //toAudioMuteButtonsLettersOk()
 
             Toast.makeText(this, "parabéns, você acertou! ", Toast.LENGTH_SHORT).show()
 
@@ -53,65 +52,16 @@ class AppleActivity : AppCompatActivity(), ButtonsForFruits, Players {
         })
     }
 
-    override fun goFirstLetter( ) {
+     fun goFirstLetter( ) {
 
         abc_aprender_b.setOnClickListener({
 
-            toMute()
+            //toMute()
 
 
         })
 
     }
-
-    override fun goThirdLetter() {
-
-        abc_aprender_n.setOnClickListener({
-
-            toMute()
-
-        })
-    }
-
-
-    override fun toMute() {
-
-        if (volume_play_maca.isSelected)
-
-            stopSoundInbutton()
-
-        else
-            playSoundError()
-
-
-    }
-
-
-
-    override fun toChangeButtonVolume() {
-
-        volume_play_maca.setOnClickListener({
-
-            v -> v.isSelected = !v.isSelected
-
-            if (v.isSelected) v.setBackgroundResource(R.drawable.volume_mudo) else v.setBackgroundResource(R.drawable.volume_ligado)
-
-        })
-
-
-    }
-
-
-    override fun toAudioMuteButtonsLettersOk() {
-
-        if (volume_play_maca.isSelected) stopSoundInbutton()  else playSoundInButton()
-
-    }
-
-
-
-
-
 
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
