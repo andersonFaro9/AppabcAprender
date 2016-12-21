@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingTop="0px"
+
+    android:background="@drawable/abc_aprender_orange_7_fundo"
+    android:paddingRight="0dp"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="64dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/abc_aprender_sete"
+            android:id="@+id/abc_aprender_sete_orange"
+            tools:layout_editor_absoluteX="69dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="176dp"/>
+
+        <ImageButton
+            android:layout_width="43dp"
+            android:background="@android:color/transparent"
+            android:layout_height="64dp"
+            app:srcCompat="@drawable/abc_aprender_urso_cinco"
+            android:id="@+id/abc_aprender_orange_button_cinco_sete"
+            tools:layout_editor_absoluteX="145dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="176dp"/>
+
+        <ImageButton
+            android:layout_width="56dp"
+            android:background="@android:color/transparent"
+            android:layout_height="64dp"
+            app:srcCompat="@drawable/abc_aprender_urso_6"
+            android:id="@+id/abc_aprender_seis_orange_sete"
+            tools:layout_editor_absoluteX="215dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="176dp"/>
+
+
+        <ImageView
+            android:layout_width="76dp"
+            android:layout_height="73dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/sol_app"
+            android:id="@+id/imageView"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="416dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"/>
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

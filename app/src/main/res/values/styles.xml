@@ -38,10 +38,9 @@
         <item name="colorPrimary">@color/accent_material_light_1</item>
         <item name="colorPrimaryDark">@android:color/holo_purple</item>
     </style>
+    <style name="theme_splash" parent="Theme.AppCompat.Light.NoActionBar"  >
+        <item name="colorPrimary">@color/accent_material_light_1</item>
 
-
-
-
-
+    </style>
 
 </resources>

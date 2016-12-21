@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingTop="0px"
+
+    android:background="@drawable/abc_aprender_cinco_background"
+    android:paddingRight="0dp"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!--<ImageButton-->
+            <!--android:layout_width="244dp"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:visibility="invisible"-->
+            <!--app:srcCompat="@drawable/button_avancar_ursos_math"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:id="@+id/abc_botao_avancar_urso_math"-->
+            <!--android:layout_marginStart="16dp"-->
+            <!--app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginEnd="16dp"-->
+            <!--app:layout_constraintRight_toRightOf="parent"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--app:layout_constraintHorizontal_bias="0.66"-->
+            <!--tools:layout_editor_absoluteY="352dp"/>-->
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/abc_aprender_nove"
+            android:id="@+id/abc_aprender_urso_nove"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintBottom_creator="1"
+            app:layout_constraintBottom_toBottomOf="@+id/abc_aprender_urso_sete"
+            android:layout_marginEnd="80dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/abc_aprender_urso_sete"
+            android:layout_marginRight="80dp"
+            app:layout_constraintVertical_bias="0.0"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/abc_aprender_urso_cinco"
+            android:id="@+id/abc_aprender_urso_five_bear"
+            app:layout_constraintRight_toLeftOf="@+id/abc_aprender_urso_oito"
+            tools:layout_constraintRight_creator="1"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            tools:layout_constraintBottom_creator="1"
+            app:layout_constraintBottom_toBottomOf="@+id/abc_aprender_urso_sete"
+            />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/abc_aprender_oito"
+            android:id="@+id/abc_aprender_urso_oito"
+            app:layout_constraintRight_toLeftOf="@+id/abc_aprender_urso_nove"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_constraintRight_creator="1"
+            app:layout_constraintTop_toTopOf="@+id/abc_aprender_urso_nove"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"/>
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/abc_aprender_sete"
+            android:id="@+id/abc_aprender_urso_sete"
+            tools:layout_editor_absoluteY="306dp"
+            tools:layout_editor_absoluteX="87dp"/>
+
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

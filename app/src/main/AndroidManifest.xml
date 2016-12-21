@@ -1,62 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kot.faro.myapplication">
+          package="com.kot.faro.myapplication">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/icone120x120"
+        android:icon="@mipmap/icone_abc"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+
+        <compatible-screens> <!--Não compatível para tablets-->
+
+            <!-- all small size screens -->
+            <screen android:screenSize="small" android:screenDensity="ldpi" />
+            <screen android:screenSize="small" android:screenDensity="mdpi" />
+            <screen android:screenSize="small" android:screenDensity="hdpi" />
+            <screen android:screenSize="small" android:screenDensity="xhdpi" />
+
+            <!-- all normal size screens -->
+            <screen android:screenSize="normal" android:screenDensity="ldpi" />
+            <screen android:screenSize="normal" android:screenDensity="mdpi" />
+            <screen android:screenSize="normal" android:screenDensity="hdpi" />
+            <screen android:screenSize="normal" android:screenDensity="xhdpi" />
+        </compatible-screens> <!--Não compatível para tablets-->
+
         <activity
             android:name=".MenuActivity"
             android:configChanges="orientation"
+            android:exported="true"
             android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".GrapeActivity"
+            android:parentActivityName=".GrapeActivity"
+            android:screenOrientation="portrait"
+
+            android:theme="@style/theme_uva"/>
+        <activity
+            android:name=".PearActivity"
+            android:parentActivityName=".PearActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/theme_pera"/>
+
+        <activity
+            android:name=".AppleActivity"
+            android:parentActivityName=".AppleActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/theme_maca"/>
+        <activity
+            android:name=".PortuguesBearActivity"
+            android:parentActivityName=".PortuguesBearActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/theme_urso"/>
+        <activity
+            android:name=".ZebraActivity"
+            android:parentActivityName=".PortuguesBearActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/theme_zebras"/>
+        <activity
+            android:name=".ElefanteActivity"
+            android:parentActivityName=".ZebraActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".animaismath.MathTwoBearActivity"
+            android:parentActivityName=".ElefanteActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".animaismath.MathTreeBearActivity"
+            android:parentActivityName=".animaismath.MathTwoBearActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".animaismath.MathFiveBearActivity"
+            android:parentActivityName=".animaismath.MathTreeBearActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".fruitsmath.MathOrangeFourActivity"
+            android:parentActivityName=".animaismath.MathFiveBearActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".fruitsmath.MathSixOrangeActivity"
+            android:parentActivityName=".fruitsmath.MathOrangeFourActivity"/>
+        <activity
+            android:name=".fruitsmath.MathOrangeSeteActivity"
+            android:parentActivityName=".fruitsmath.MathSixOrangeActivity">
+        </activity>
+        <activity
+            android:name=".fruitsportugues.SplashActivity"
+            android:theme="@style/theme_splash">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".GrapeActivity"
-            android:parentActivityName=".GrapeActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/theme_uva" />
-        <activity
-            android:name=".PearActivity"
-            android:parentActivityName=".PearActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/theme_pera" />
-        <activity
-            android:name=".AppleActivity"
-            android:parentActivityName=".AppleActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/theme_maca" />
-        <activity
-            android:name=".BearActivity"
-            android:parentActivityName=".BearActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/theme_urso" />
-        <activity
-            android:name=".ZebraActivity"
-            android:parentActivityName=".BearActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/theme_zebras" />
-        <activity
-            android:name=".ElefanteActivity"
-            android:parentActivityName=".ZebraActivity"
-            android:screenOrientation="portrait"
-            ></activity>
-
-        <activity android:name=".MathBearActivity"
-            android:parentActivityName=".ElefanteActivity"
-            android:screenOrientation="portrait"
-            >
-
-
+            android:name=".SobreActivity"
+            android:screenOrientation="portrait">
         </activity>
 
+        <activity android:name=".DevsActivity"  >
+        </activity>
     </application>
 
 </manifest>

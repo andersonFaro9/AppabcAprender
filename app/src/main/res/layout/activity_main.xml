@@ -1,13 +1,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="379dp"
-    android:layout_height="514dp"
-    android:paddingLeft="0dp"
-    android:paddingTop="0px"
-    android:background="@drawable/abc_aprender_menu"
-    android:paddingRight="0dp"
-    android:orientation="vertical" >
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="0dp"
+
+              android:background="@drawable/abc_aprender_menu_inicial"
+              android:paddingTop="0px"
+              android:paddingRight="0dp"
+              android:orientation="vertical" >
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
@@ -16,64 +17,66 @@
         <ImageButton
 
             android:layout_width="144dp"
+            android:scaleType="center"
             android:background="@android:color/transparent"
             android:layout_height="40dp"
             app:srcCompat="@drawable/abc_aprender_letras"
             android:id="@+id/letras"
 
-            android:layout_marginTop="16dp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="16dp"
-            app:layout_constraintVertical_bias="0.54"
-            android:layout_marginStart="16dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="16dp"
-            app:layout_constraintRight_toRightOf="parent"
-            android:layout_marginRight="16dp" />
-
-        <ImageButton
-            android:layout_width="153dp"
-            android:layout_height="60dp"
-            app:srcCompat="@drawable/abc_botao_numeros"
-            android:background="@android:color/transparent"
-            android:id="@+id/imageButton5"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="160dp"
-            android:layout_marginStart="16dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="16dp"
-            app:layout_constraintRight_toRightOf="parent"
-            android:layout_marginRight="16dp" />
-
-        <ImageView
-            android:layout_width="76dp"
-            android:layout_height="73dp"
-            android:background="@android:color/transparent"
-            app:srcCompat="@drawable/sol"
-            tools:layout_editor_absoluteY="88dp"
-            android:id="@+id/imageView"
             android:layout_marginStart="16dp"
             app:layout_constraintLeft_toLeftOf="parent"
             android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
             app:layout_constraintRight_toRightOf="parent"
             android:layout_marginRight="16dp"
-            app:layout_constraintHorizontal_bias="0.84" />
+            android:layout_marginTop="240dp"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <ImageButton
+            android:layout_width="151dp"
+            android:scaleType="center"
+            android:layout_height="46dp"
+            app:srcCompat="@drawable/abc_botao_numeros"
+            android:background="@android:color/transparent"
+            android:id="@+id/matematica"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/letras"
+            android:layout_marginStart="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="16dp"/>
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="61dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/sol_app"
+            android:id="@+id/sol_menu"
+            android:layout_marginEnd="48dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent"/>
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/botao_desligado"
+            android:src="@drawable/botao_desligado"
             android:background="@android:color/transparent"
             android:id="@+id/volume_play_menu"
-            android:layout_marginEnd="336dp"
+            android:layout_marginEnd="328dp"
             app:layout_constraintRight_toRightOf="parent"
-            android:layout_marginRight="336dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="464dp" />
+            android:layout_marginRight="328dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintHorizontal_bias="0.05"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="parent"/>
+
 
 
     </android.support.constraint.ConstraintLayout>

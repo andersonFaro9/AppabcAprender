@@ -1,7 +1,8 @@
 package com.kot.faro.myapplication
 
-import InterfacesPortugues.ButtonsForAnimais
-import InterfacesPortugues.Players
+import Interfacesforportugues.ButtonsForAnimais
+import Interfacesforportugues.Players
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
@@ -10,6 +11,8 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.ImageButton
 import android.widget.Toast
+import com.kot.faro.myapplication.animaismath.MathTwoBearActivity
+import com.kot.faro.myapplication.fruitsmath.MathOrangeFourActivity
 import kotlinx.android.synthetic.main.activity_zebra.*
 
 class ZebraActivity : AppCompatActivity(), ButtonsForAnimais, Players {
@@ -21,8 +24,7 @@ class ZebraActivity : AppCompatActivity(), ButtonsForAnimais, Players {
        goNumberOne()
         goNumberTwo()
         goNumberTree()
-        toChangeButtonVolume()
-        stopSoundInbutton()
+
         getSupportActionBar()?.setDisplayHomeAsUpEnabled(true)
 
     }
@@ -33,9 +35,9 @@ class ZebraActivity : AppCompatActivity(), ButtonsForAnimais, Players {
         abc_aprender_number_1.setOnClickListener({
 
             v ->
-            v.setBackgroundResource(R.drawable.check)
+            v.setBackgroundResource(R.drawable.ic_check)
 
-            toAudioMuteButtonsLettersOk()
+            toGetKeyForNumberOk()
 
             Toast.makeText(this, "parabéns, você acertou! ", Toast.LENGTH_SHORT).show()
 
@@ -53,12 +55,32 @@ class ZebraActivity : AppCompatActivity(), ButtonsForAnimais, Players {
         })
     }
 
+    override fun toGetKeyForNumberOk() {
+
+        val prefs = getSharedPreferences("preferencias", Context.MODE_PRIVATE)
+        val keys = prefs.getBoolean("chave", true)
+
+        if(keys){
+
+            playSoundInButton()
+        }
+    }
+
+    override fun toGetKeyForNumberError() {
+        val prefs = getSharedPreferences("preferencias", Context.MODE_PRIVATE)
+        val keys = prefs.getBoolean("chave", true)
+
+        if(keys){
+            playSoundError()
+        }
+    }
+
 
     override fun goNumberTwo() {
 
         abc_aprender_number_2.setOnClickListener({
 
-            toMute()
+            toGetKeyForNumberError()
 
 
         })
@@ -69,46 +91,10 @@ class ZebraActivity : AppCompatActivity(), ButtonsForAnimais, Players {
 
         abc_aprender_number_3.setOnClickListener({
 
-            toMute()
+            toGetKeyForNumberError()
 
         })
     }
-
-
-    override fun toMute() {
-
-        if (volume_play_zebra.isSelected)
-
-            stopSoundInbutton()
-
-        else
-            playSoundError()
-
-
-    }
-
-
-
-    override fun toChangeButtonVolume() {
-
-        volume_play_zebra.setOnClickListener({
-
-            v -> v.isSelected = !v.isSelected
-
-            if (v.isSelected) v.setBackgroundResource(R.drawable.volume_mudo) else v.setBackgroundResource(R.drawable.volume_ligado)
-
-        })
-
-
-    }
-
-
-    override fun toAudioMuteButtonsLettersOk() {
-
-        if (volume_play_zebra.isSelected) stopSoundInbutton()  else playSoundInButton()
-
-    }
-
 
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -124,19 +110,48 @@ class ZebraActivity : AppCompatActivity(), ButtonsForAnimais, Players {
 
                 val intent = Intent(this@ZebraActivity, GrapeActivity::class.java)
 
+                startActivity(intent)
+                return true
+            }
+
+            R.id.menu_inicial -> {
+
+                val intent = Intent(this@ZebraActivity, MenuActivity::class.java)
+
                 startActivity (intent)
                 return true
             }
 
             R.id.letras_animais -> {
 
-                //to create method for call activity
+                val intent = Intent(this@ZebraActivity, PortuguesBearActivity::class.java)
+
+                startActivity(intent)
+                return true
+            }
+
+            R.id.sobre -> {
+
+                val intent = Intent(this@ZebraActivity, SobreActivity::class.java)
+
+                startActivity(intent)
                 return true
             }
 
             R.id.matematica_animais -> {
 
-                //to create method for call activity
+                val intent = Intent(this@ZebraActivity, MathTwoBearActivity::class.java)
+
+                startActivity(intent)
+                return true
+            }
+
+
+            R.id.matematica_frutas -> {
+
+                val intent = Intent(this@ZebraActivity, MathOrangeFourActivity::class.java)
+
+                startActivity(intent)
                 return true
             }
 
@@ -145,4 +160,5 @@ class ZebraActivity : AppCompatActivity(), ButtonsForAnimais, Players {
         }
 
     }
+
 }

@@ -5,10 +5,14 @@
     <item
         android:id="@+id/letras_frutas"
 
-        android:title="Letras/Frutas"
+        android:title="Letras e frutas"
         />
 
+    <item
+        android:id="@+id/dev"
 
+        android:title="Devs"
+        />
     <item
         android:id="@+id/menu_inicial"
 
@@ -18,19 +22,19 @@
     <item
         android:id="@+id/letras_animais"
 
-        android:title="Letras/Animais"
+        android:title="Letras e animais"
         />
 
     <item
         android:id="@+id/matematica_animais"
 
-        android:title="Matemática/Animais"
+        android:title="Matemática e animais"
         />
 
     <item
         android:id="@+id/matematica_frutas"
 
-        android:title="Matemática/Frutas"
+        android:title="Matemática e frutas"
         />
 
 

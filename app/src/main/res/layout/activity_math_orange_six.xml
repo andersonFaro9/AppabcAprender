@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingLeft="0dp"
+              android:paddingTop="0dp"
+
+              android:background="@drawable/abc_aprender_orange_fundo_seis"
+              android:paddingRight="0dp"
+              android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/button_avancar_ursos_math"
+            android:background="@android:color/transparent"
+            android:id="@+id/abc_botao_avancar_urso_math"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="16dp"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintLeft_creator="1"/>
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/abc_aprender_urso_4"
+            android:id="@+id/abc_aprender_orange_4_seis"
+            tools:layout_constraintBottom_creator="1"
+            android:layout_marginStart="40dp"
+            app:layout_constraintBottom_toBottomOf="@+id/abc_aprender_orange_seis"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="40dp"/>
+
+
+        <ImageButton
+            android:layout_width="42dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/abc_aprender_urso_cinco"
+            android:id="@+id/abc_aprender_orange_six_five"
+            android:layout_marginStart="8dp"
+            app:layout_constraintLeft_toRightOf="@+id/abc_aprender_orange_oito_seis"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="160dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="16dp"
+            app:layout_constraintHorizontal_bias="0.14"/>
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/abc_aprender_oito"
+            android:id="@+id/abc_aprender_orange_oito_seis"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="160dp"
+            android:layout_marginStart="40dp"
+            app:layout_constraintLeft_toRightOf="@+id/abc_aprender_orange_seis"
+            android:layout_marginLeft="40dp"/>
+
+
+        <ImageButton
+            android:layout_width="43dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/abc_aprender_urso_6"
+            android:id="@+id/abc_aprender_orange_seis"
+            app:layout_constraintLeft_toRightOf="@+id/abc_aprender_orange_4_seis"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="160dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"/>
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/sol_app"
+            android:id="@+id/imageView"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="360dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.04000002"/>
+
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
