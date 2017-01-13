@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:state_enabled="true"
-    android:drawable="@drawable/volume_mudo"
-    />
+    <item android:drawable="@drawable/volume_mudo" android:state_checked="true"  />
 
+    <item android:drawable="@drawable/volume_ligado" />
 
 </selector>

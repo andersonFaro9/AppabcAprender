@@ -1,5 +1,6 @@
 package com.kot.faro.myapplication
 
+
 import Interfacesforportugues.ButtonsForFruits
 import Interfacesforportugues.Players
 
@@ -7,6 +8,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -131,37 +133,23 @@ import kotlinx.android.synthetic.main.activity_uva.*
 
          override fun toGetKeyForLetterOk() {
 
-             var prefs = getSharedPreferences("preferencias", Context.MODE_PRIVATE)
-             var keys = prefs.getBoolean("chave", false)
+             val prefs = getSharedPreferences("preferencias", Context.MODE_PRIVATE)
+             val ed = prefs.getBoolean("chave",true)
 
 
-             if(keys == true ) {
-
-                 playSoundInButton()
-
-                 prefs = getSharedPreferences("preferencias", Context.MODE_PRIVATE)
-                 val ed = prefs.edit()
-                 ed.remove("chave")
-                 ed.apply()
-                 ed.commit()
+            if ( ed  ) {
+                playSoundInButton()
+                Log.d("Ok","Ok")
 
              }
+
+
      }
 
-
      override fun toGetKeyForLetterError() {
-         val prefs = getSharedPreferences("preferencias", Context.MODE_PRIVATE)
-         val keys = prefs.getBoolean("chave", true)
 
 
-
-
-         if(keys){
-             playSoundError()
-             val prefs = getSharedPreferences("preferencias", Context.MODE_PRIVATE)
-             prefs.getBoolean("chave", true)
-
-         }
+          playSoundError()
 
      }
 
@@ -171,7 +159,6 @@ import kotlinx.android.synthetic.main.activity_uva.*
          abc_aprender_e.setOnClickListener({
 
              toGetKeyForLetterError()
-
          })
 
      }

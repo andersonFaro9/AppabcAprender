@@ -15,20 +15,20 @@
         android:layout_height="match_parent">
 
         <ImageButton
-            android:layout_width="41dp"
-            android:layout_height="58dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             app:srcCompat="@drawable/abc_aprender_1"
             android:id="@+id/abc_aprender_number_1"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="208dp"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginStart="48dp"
             app:layout_constraintLeft_toLeftOf="parent"
             android:layout_marginLeft="48dp"/>
 
         <ImageButton
-            android:layout_width="41dp"
-            android:layout_height="41dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:background="@android:color/transparent"
 
             app:srcCompat="@drawable/abc_aprender_2"
@@ -45,7 +45,7 @@
             android:background="@android:color/transparent"
             app:srcCompat="@drawable/abc_aprender_3"
             android:id="@+id/abc_aprender_number_3"
-            android:layout_marginTop="320dp"
+            android:layout_marginTop="312dp"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginStart="48dp"
             app:layout_constraintLeft_toLeftOf="parent"

@@ -16,8 +16,8 @@
 
 
         <ImageButton
-            android:layout_width="244dp"
-            android:layout_height="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:visibility="invisible"
             app:srcCompat="@drawable/button_avancar_ursos_math"
             android:background="@android:color/transparent"
@@ -28,46 +28,46 @@
             android:layout_marginEnd="16dp"
             app:layout_constraintRight_toRightOf="parent"
             android:layout_marginRight="16dp"
-            app:layout_constraintHorizontal_bias="0.61"
-            android:layout_marginTop="48dp"
-            app:layout_constraintTop_toBottomOf="@+id/abc_aprender_urso_math_3"/>
+            app:layout_constraintHorizontal_bias="0.53"
+            android:layout_marginTop="104dp"
+            app:layout_constraintTop_toBottomOf="@+id/abc_aprender_urso_cinco"/>
 
 
         <ImageButton
-            android:layout_width="48dp"
-            android:layout_height="64dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             app:srcCompat="@drawable/abc_aprender_urso_tres"
             android:id="@+id/abc_aprender_urso_math_3"
-            android:layout_marginTop="296dp"
-            app:layout_constraintTop_toTopOf="parent"
             android:layout_marginStart="104dp"
             app:layout_constraintLeft_toLeftOf="parent"
-            android:layout_marginLeft="104dp" />
+            android:layout_marginLeft="104dp"
+            android:layout_marginTop="304dp"
+            app:layout_constraintTop_toTopOf="parent"/>
 
         <ImageButton
             android:layout_width="wrap_content"
             android:background="@android:color/transparent"
-            android:layout_height="65dp"
+            android:layout_height="wrap_content"
             app:srcCompat="@drawable/abc_aprender_urso_cinco"
             android:id="@+id/abc_aprender_urso_cinco"
-            android:layout_marginTop="296dp"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginStart="160dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            android:layout_marginLeft="160dp" />
+            android:layout_marginStart="8dp"
+            app:layout_constraintLeft_toRightOf="@+id/abc_aprender_urso_math_3"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="304dp"
+            app:layout_constraintTop_toTopOf="parent"/>
 
         <ImageButton
-            android:layout_width="42dp"
+            android:layout_width="wrap_content"
             android:background="@android:color/transparent"
-            android:layout_height="65dp"
+            android:layout_height="wrap_content"
             app:srcCompat="@drawable/abc_aprender_urso_6"
             android:id="@+id/abc_aprender_urso_seis"
-            android:layout_marginTop="296dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintLeft_toRightOf="@+id/abc_aprender_urso_cinco"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="304dp"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginStart="208dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            android:layout_marginLeft="208dp"
             />
 
 

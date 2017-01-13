@@ -2,6 +2,29 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.kot.faro.myapplication">
 
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="false" />
+    <!--<compatible-screens> &lt;!&ndash;Não compatível para tablets&ndash;&gt;-->
+
+        <!--&lt;!&ndash; all small size screens &ndash;&gt;-->
+        <!--<screen android:screenSize="small" android:screenDensity="ldpi" />-->
+        <!--<screen android:screenSize="small" android:screenDensity="mdpi" />-->
+        <!--<screen android:screenSize="small" android:screenDensity="hdpi" />-->
+        <!--<screen android:screenSize="small" android:screenDensity="xhdpi" />-->
+
+        <!--&lt;!&ndash; all normal size screens &ndash;&gt;-->
+        <!--<screen android:screenSize="normal" android:screenDensity="ldpi" />-->
+        <!--<screen android:screenSize="normal" android:screenDensity="mdpi" />-->
+        <!--<screen android:screenSize="normal" android:screenDensity="hdpi" />-->
+        <!--<screen android:screenSize="normal" android:screenDensity="xhdpi" />-->
+        <!--<screen android:screenSize="normal" android:screenDensity="xxhdpi" />-->
+    <!--</compatible-screens> &lt;!&ndash;Não compatível para tablets&ndash;&gt;-->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/icone_abc"
@@ -11,20 +34,6 @@
         android:theme="@style/AppTheme">
 
 
-        <compatible-screens> <!--Não compatível para tablets-->
-
-            <!-- all small size screens -->
-            <screen android:screenSize="small" android:screenDensity="ldpi" />
-            <screen android:screenSize="small" android:screenDensity="mdpi" />
-            <screen android:screenSize="small" android:screenDensity="hdpi" />
-            <screen android:screenSize="small" android:screenDensity="xhdpi" />
-
-            <!-- all normal size screens -->
-            <screen android:screenSize="normal" android:screenDensity="ldpi" />
-            <screen android:screenSize="normal" android:screenDensity="mdpi" />
-            <screen android:screenSize="normal" android:screenDensity="hdpi" />
-            <screen android:screenSize="normal" android:screenDensity="xhdpi" />
-        </compatible-screens> <!--Não compatível para tablets-->
 
         <activity
             android:name=".MenuActivity"
@@ -82,11 +91,14 @@
             android:screenOrientation="portrait"/>
         <activity
             android:name=".fruitsmath.MathSixOrangeActivity"
-            android:parentActivityName=".fruitsmath.MathOrangeFourActivity"/>
+            android:parentActivityName=".fruitsmath.MathOrangeFourActivity"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".fruitsmath.MathOrangeSeteActivity"
-            android:parentActivityName=".fruitsmath.MathSixOrangeActivity">
-        </activity>
+            android:parentActivityName=".fruitsmath.MathSixOrangeActivity"
+            android:screenOrientation="portrait"/>
+
+
         <activity
             android:name=".fruitsportugues.SplashActivity"
             android:theme="@style/theme_splash">
@@ -101,7 +113,7 @@
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name=".DevsActivity"  >
+        <activity android:name=".DevsActivity" android:screenOrientation="portrait">
         </activity>
     </application>
 
