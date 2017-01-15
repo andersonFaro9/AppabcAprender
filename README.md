@@ -15,3 +15,9 @@ O aplicativo está em fase beta, esperamos por seu feedback.
 [![play1.png](https://s29.postimg.org/5rnast3lj/play1.png)](https://play.google.com/store/apps/details?id=com.kot.faro.myapplication)
 
 ![](http://i.makeagif.com/media/1-15-2017/7adXVB.gif)
+
+
+
+#Dúvidas
+
+Entrar em contato pelo email: faro.anderson@gmail.com
