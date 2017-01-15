@@ -7,7 +7,7 @@
 /build
 /captures
 *.externalNativeBuild
-build.gradle
+*build.gradle
 gradle.properties
 gradlew
 gradlew.bat
