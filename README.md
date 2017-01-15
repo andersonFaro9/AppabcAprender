@@ -13,3 +13,6 @@ aplicativo pode facilitar sua vida. De uma maneira divertida e contagiante, com 
 O aplicativo está em fase beta, esperamos por seu feedback.
 
 [![play1.png](https://s29.postimg.org/5rnast3lj/play1.png)](https://play.google.com/store/apps/details?id=com.kot.faro.myapplication)
+
+
+![Demostração do aplicativo Abc Aprender](http://i.makeagif.com/media/1-15-2017/razg7M.gif)
