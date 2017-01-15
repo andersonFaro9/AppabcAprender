@@ -20,4 +20,4 @@ O aplicativo está em fase beta, esperamos por seu feedback.
 
 #Dúvidas
 
-Entrar em contato pelo email: faro.anderson@gmail.com
+Entrar em contato pelo email: faro.anderson@gmail.com ou lucas.barbosa.work@hotmail.com
