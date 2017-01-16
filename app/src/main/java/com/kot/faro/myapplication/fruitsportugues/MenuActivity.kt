@@ -22,14 +22,18 @@
             letsGoGrape()
             toChangeVolume()
             letsGoBearTwo ()
+            clearKey()
 
 
+        }
+
+
+        fun clearKey() {
             val prefs = getSharedPreferences("preferencias", Context.MODE_PRIVATE)
             val ed = prefs.edit()
             ed.putBoolean("chave", true)
 
             ed.clear().commit()
-
         }
 
         override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -120,6 +124,8 @@
                     ed.commit()
 
 
+
+
                  }
                  else {
                      val prefs = getSharedPreferences("preferencias", Context.MODE_PRIVATE)
@@ -129,25 +135,13 @@
                      ed.commit()
 
 
+
                  }
 
 
              })
 
 
-
-
-//            button1.setOnClickListener({
-//
-//
-//
-//                    val prefs = getSharedPreferences("preferencias", Context.MODE_PRIVATE)
-//                    val ed = prefs.edit()
-//                    ed.putBoolean("chaveum", false)
-//
-//                    ed.apply()
-//
-//            })
 
         }
 

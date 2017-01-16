@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/faro/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.3/10f40d016700cf4287e49fa1d51c2a8507e9b946/kotlin-runtime-1.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="10f40d016700cf4287e49fa1d51c2a8507e9b946">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/kotlin-runtime-1.0.3_7cae6fc0c726dbec30a5d1d28a66e7e1aee1f6fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1c7f96386b33eb5c14d8da36aa8930f18f41f1a8">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_db68595c231286bb03f7dc32d2d277a21646f9bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/faro/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_1af8263ed9c0a4b2f34367f9856b465b2da51d9d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_39f0ab76e435f2ff49f2498b240d5c5b03e2f0e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/faro/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.3/20738122b53399036c321eeb84687367757d622a/kotlin-stdlib-1.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="20738122b53399036c321eeb84687367757d622a">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/kotlin-stdlib-1.0.3_64f3fc14a4ab2599df927262dac0460732a04b10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_ab7ac8e99c49856f350409a3693c94faf5a32bcd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/faro/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta4/constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta4_8ae5f73bb55e22cea6a0795222636d8dca4cd74e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/faro/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-common/0.9/26c6156bea5eb494474c90528240daadf4b067c8/anko-common-0.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6156bea5eb494474c90528240daadf4b067c8">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/anko-common-0.9_427b4cdf7321245c58cf06cf90f8ba24b81dc05c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="214b2ff01d466dd6920776550320d3a8a7008b35">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6c1ffcf63d1e068073cf41a1bd0a2e70ed508344/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_8786f6f23e857208b8d0fc67d94d2fbbc7867890/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/faro/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-support-v4/0.9/4616ffe811fc931672c50fb05834a62aa24cdab2/anko-support-v4-0.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4616ffe811fc931672c50fb05834a62aa24cdab2">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/anko-support-v4-0.9_6a785f94f4d7bf84ef7a834053e4429056f2e68f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_20dc72790913f3072a405cd7842a99b12dcd16a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/faro/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-appcompat-v7/0.9/69676bf4015be3e182e00dbebea5ee0c9325e78a/anko-appcompat-v7-0.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="69676bf4015be3e182e00dbebea5ee0c9325e78a">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/anko-appcompat-v7-0.9_d03aa3a70564abff14049097858e5db117153d4f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_623ce4e8545fac8296f0f28ab6f66172cec307c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-beta4_5da233883158cd64df7020a4797e015beb158d6d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/faro/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk15/0.9/e741cd0d94e63a27bc7b8cbd8d04571c058bab32/anko-sdk15-0.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e741cd0d94e63a27bc7b8cbd8d04571c058bab32">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/anko-sdk15-0.9_c7bb7032002847b298029476ba56eb3921a6ad14/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_c45f4469653f4814cf8350302baca18746bfb506/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/faro/AndroidStudioProjects/AbcAprender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_4538698f74dd5f0b2e3d18680113c3c4a8f1e587/classes.dex" />
+    </item>
+
+</items>

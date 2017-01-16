@@ -61,21 +61,6 @@
             android:layout_marginTop="8dp"
             app:layout_constraintTop_toTopOf="parent"/>
 
-        <!--<ImageButton-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:src="@drawable/botao_desligado"-->
-            <!--android:background="@android:color/transparent"-->
-            <!--android:id="@+id/volume_play_menu"-->
-            <!--android:layout_marginEnd="328dp"-->
-            <!--app:layout_constraintRight_toRightOf="parent"-->
-            <!--android:layout_marginRight="328dp"-->
-            <!--android:layout_marginStart="16dp"-->
-            <!--app:layout_constraintLeft_toLeftOf="parent"-->
-            <!--android:layout_marginLeft="16dp"-->
-            <!--app:layout_constraintHorizontal_bias="0.05"-->
-            <!--android:layout_marginTop="16dp"-->
-            <!--app:layout_constraintTop_toTopOf="parent"/>-->
 
         <ToggleButton
             android:id="@+id/button1"
