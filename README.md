@@ -5,7 +5,7 @@
 ![alt tag](https://s27.postimg.org/eg2e92udf/icon_abc_1.jpg)
 ![alt tag](https://s27.postimg.org/vf2o9ilyb/logo_webschool.png)
 
-#Abc Aprender
+# Abc Aprender
 
 Com o apoio da Webschool, escola on-line com cursos gratuitos sobre tecnologia, o olhar clínico da Lucas Barbosa com o design gráfico do aplicativo e a programação de Anderson Faro pudemos concretizar
 o sonho de criar nosso primeiro aplicativo: O <b> Abc Aprender </b>. Se seu filho(a) está começando a ler e aprender o alfabeto e você não tem tempo para acompanhar as lições escolares, este 
@@ -18,6 +18,6 @@ O aplicativo está em fase beta, esperamos por seu feedback.
 
 
 
-#Dúvidas
+# Dúvidas
 
 Entrar em contato pelo email: faro.anderson@gmail.com ou lucas.barbosa.work@hotmail.com
